@@ -1,0 +1,15 @@
+Problem:
+You are given a binary string s that contains at least one '1'.
+You have to rearrange the bits in such a way that the resulting binary number is the maximum odd binary number that can be created from this combination.
+
+Return a string representing the maximum odd binary number that can be created from the given combination.
+Note that the resulting string can have leading zeros.
+**
+Solution:
+Count the number of zeroes and the total length of the initial string.
+Start with number one and prefix it with zero that amount of times zeroes are found in the initial string.
+This string then, prefix with one that number of times number of one is found in the initial string - 1.
+**
+Complexity:
+O(n) Time
+O(n) Space
