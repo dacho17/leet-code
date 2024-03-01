@@ -1,0 +1,12 @@
+Problem:
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+**
+Solution:
+For each number, use a dictionary to store a complement summand as the key and an index of a current number (first summand) as the value.
+If the number checked exists in the dictionary, that means that the complementary summand has already been found on the index stored as a value.
+**
+Complexity:
+O(n) Time
+O(n) Space
