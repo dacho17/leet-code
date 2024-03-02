@@ -1,0 +1,11 @@
+Problem:
+Given an integer x, return true if x is a palindrome, and false otherwise.
+**
+Solution:
+Count the digits of the given number.
+Iterate through the digits and place half of the number's digits on the stack.
+Then compare whether the rest of the digits are matched in the right order with the stacked digits. 
+**
+Complexity:
+O(n) Time
+O(n) Space
