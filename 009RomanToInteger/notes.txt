@@ -1,0 +1,10 @@
+Problem:
+Given a roman numeral, convert it to an integer.
+**
+Solution:
+Iterating through the roman numeral from back side forward, add the values which symbols represent unless
+there is the symbol of a lesser order seen after the symbol of a higher order. In that case substract the value of that symbol.
+**
+Complexity:
+O(n) Time
+O(1) Space
