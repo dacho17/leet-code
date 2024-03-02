@@ -1,0 +1,9 @@
+Problem:
+Given an integer, convert it to a roman numeral.
+**
+Solution:
+Iterate through digits of the integer. Represent each digit with the corresponding roman numeral.
+**
+Complexity:
+O(1) Time
+O(1) Space
