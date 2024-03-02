@@ -1,0 +1,10 @@
+Problem:
+Given a signed 32-bit integer x, return x with its digits reversed
+**
+Solution:
+From the digit of the lowest to the digit of the highest order, push digits of an integer to a stack.
+Pop digits from the stack and add their powered values to the result.
+**
+Complexity:
+O(1) Time
+O(1) Space
