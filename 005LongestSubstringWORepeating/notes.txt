@@ -1,0 +1,15 @@
+Problem:
+Given a string s, find the length of the longest
+substring without repeating characters
+**
+Solution:
+State(longestSubstring, startIndex, curIndex, mem).
+While iterating through the string, check whether the current element has already been seen before.
+If it has not been seen before, store the (element, index) entry in the dictionary.
+If it has been seen before, check whether the index of the element falls into the current substring.
+If it does, set the begining of substring to the first index after the index of the earlier seen element.
+Set the current index as the last seen place of the element.
+**
+Complexity:
+O(n) Time
+O(n) Space

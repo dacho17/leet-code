@@ -1,0 +1,11 @@
+Problem:
+Given an integer array nums sorted in non-decreasing order,
+return an array of the squares of each number sorted in non-decreasing order.
+**
+Solution:
+In first traversal of the array create the new array containing squares of the numbers.
+Quicksort the squares of the numbers.
+**
+Complexity:
+O(nlogn) Time
+O(n) Space

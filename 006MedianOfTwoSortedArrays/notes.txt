@@ -1,0 +1,12 @@
+Problem:
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+The overall run time complexity should be O(log (m+n)).
+**
+Solution:
+Iterate simultaneously through the sorted arrays and construct the merged sorted array.
+If the length of the resulting array is an odd number, choose the middle element of the array as a median.
+If the length of the resulting array is an even number, calculate the median from two middle elements of the array.
+**
+Complexity:
+O(m+n) Time
+O(m+n) Space
