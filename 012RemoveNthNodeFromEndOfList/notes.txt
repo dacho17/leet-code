@@ -1,0 +1,9 @@
+Problem:
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
+**
+Solution:
+Count the number of elements in the list. Remove the length - nth element of the list.
+**
+Complexity:
+O(n) Time
+O(1) Space
