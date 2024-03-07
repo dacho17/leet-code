@@ -1,0 +1,11 @@
+Problem:
+Given the head of a singly linked list, return the middle node of the linked list.
+If there are two middle nodes, return the second middle node.
+**
+Solution:
+Iterate through the list and count the number of nodes.
+Go to node in the middle of the list and return it.
+**
+Complexity:
+O(n) Time
+O(1) Space
