@@ -1,0 +1,12 @@
+Problem:
+You are given an array nums consisting of positive integers.
+Return the total frequencies of elements in nums such that those elements all have the maximum frequency.
+The frequency of an element is the number of occurrences of that element in the array.
+**
+Solution:
+Iterate through an array and count the occurences for each element. Store these in a dictionary.
+Remember the number of max occurances. Iterate through the dictionary and sum up all of the max occurences.
+**
+Complexity:
+O(n) Time
+O(n) Space
