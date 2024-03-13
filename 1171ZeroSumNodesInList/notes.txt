@@ -1,0 +1,14 @@
+Problem:
+Given the head of a linked list, we repeatedly delete consecutive sequences of nodes that sum to 0 until there are no such sequences.
+After doing so, return the head of the final linked list. You may return any such answer.
+**
+Solution:
+Create a dictionary with entry of format (prefixSum, node) where prefixSum is a prefixSum up to node.
+Iterate through list and store prefixSums with nodes to a dictionary.
+If the prefixSum has already been seen remove all those nodes from the dictionary which come between the current node
+and the node to which prefix sum points (both included).
+Connect the prefixSum to the follower node of the current node.
+**
+Complexity:
+O(n) Time
+O(n) Space
